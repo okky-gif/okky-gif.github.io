@@ -1,0 +1,258 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@media screen and (min-width: 481px){ 
+    header {
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+        background-color: orange;
+        padding: 20px 40px;
+    }
+    .container {
+        width: 100%;
+    }
+    .square {
+        width: 100%;
+    }
+    .header-left {
+        float: left;
+        font-weight: bold;
+        font-size: 35px;
+    }
+    .header-right {
+        float: right;
+    }
+    .header-right input {
+        font-size: 20px;
+    }
+    .header-container {
+        font-size: 30px;
+    }
+    .header-container .fas {
+        padding: 0 5px;
+    }
+    .slicks-image {
+        width: 1400px;
+        height: 565px;
+    }
+    .slick-prev {
+        padding: 0 10px;
+        position: absolute;
+        content: "";
+        display: block;
+        width: 26px;
+        height: 26px;
+        top: 50%;
+        border-left: 3px solid rgba(0, 0, 0, .8);
+        border-top: 3px solid rgba(0, 0, 0, .8);
+        z-index: 3;
+        transform: translate(0, -50%) rotate(315deg) scale(1);
+    }
+    /*.slick-prev::before {
+        left: 0;
+        margin: 0 0 0 23px;
+        transform: translate(0, -50%) rotate(315deg) scale(1);
+    }*/
+    .slick-next {
+        padding: 0 10px;
+        position: absolute;
+        content: "";
+        display: block;
+        width: 26px;
+        height: 26px;
+        top: 50%;
+        border-bottom: 3px solid rgba(0, 0, 0, .8);
+        border-right: 3px solid rgba(0, 0, 0, .8);
+        z-index: 3;
+        transform: translate(0, -50%) rotate(315deg) scale(1);
+    }
+    /*.slick-next::before {
+        right: 0;
+        margin: 0 23px 0 0;
+        transform: translate(0, -50%) rotate(315deg) scale(1);
+    }*/
+    .slide {
+        margin-bottom: 80px;
+    }
+    .container {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .Category {
+        overflow: hidden;
+    }
+    .row-image {
+        width: 333px;
+        height: 150px;
+        transition-duration: 0.5s;
+    }
+    .row-image:hover {
+        transform: scale(1.2);
+        transition-duration: 0.5s;
+    }
+    .choice {
+        margin: 0 auto;
+        padding: 20px 10px;
+    }
+    .Description {
+        margin-top: 100px;
+        background-image: url(file:///C:/Users/s-oki/Desktop/ffftp/img/eberhard-grossgasteiger-y2azHvupCVo-unsplash.jpg);
+        text-align: center;
+        background-position: center;
+        height: 500px;
+        display: table;
+        background-size: cover;
+        width: 100%;
+        color: white;
+        padding-top: 150px;
+        margin-bottom: 100px;
+    }
+    .Description p {
+        font-size: 20px;
+    }
+    .square {
+        color: white;
+    }
+    .list-content {
+        background-color: yellowgreen;
+        padding: 10px 50px;
+        margin-bottom: 20px;
+    }
+    .list-content p {
+        font-size: 14px;
+    }
+    .list-content:hover {
+        opacity: .8;
+    }
+    .pagetop {
+        display: none;
+        cursor: pointer;
+        position: fixed;
+        bottom: 90px;
+        right: 50px;
+        background-color: #ececec;
+        padding: 20px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    footer {
+        background-color: #CCCCCC;
+        padding: 50px 100px;
+        margin-bottom: 0;
+        margin-top: 90px;
+    }
+    .footer-left {
+        float: left;
+    }
+    .footer-right {
+        float: right;
+    }
+    
+}
+
+/*スマホサイズでの表示法*/
+@media screen and (max-width: 480px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    header {
+        position: fixed;
+        z-index: 100;
+        padding: 20px 0;
+        width: 100%;
+        background-color: orange;
+    }
+    .header-container {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .header-left {
+        font-weight: bold;
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+    .header-container .fas {
+        padding: 0;
+        display: none;
+    }
+    .Form-Item-Input {
+        width: 60%;
+    }
+    .slicks-image {
+        width: 330px;
+        height: auto;
+    }
+    .Category {
+        margin-top: 40px;
+    }
+    .row-image {
+        width: 330px;
+        height: auto;
+        transition-duration: 0.5s;
+    }
+    .row-image:hover {
+        transform: scale(1.1);
+        transition-duration: 0.5s;
+    }
+    .Description {
+        margin-top: 80px;
+        background-image: url(file:///C:/Users/s-oki/Desktop/ffftp/img/eberhard-grossgasteiger-y2azHvupCVo-unsplash.jpg);
+        text-align: center;
+        background-position: center;
+        height: 400px;
+        display: table;
+        background-size: cover;
+        width: 100%;
+        color: white;
+        padding-top: 150px;
+        margin-bottom: 100px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    h1 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    h2 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .list-content {
+        background-color: yellowgreen;
+        padding: 10px 50px;
+        margin-bottom: 20px;
+    }
+    .list-content p {
+        font-size: 14px;
+    }
+    .list-content:hover {
+        opacity: .8;
+    }
+    footer {
+        background-color: #CCCCCC;
+        padding: 50px;
+        margin-bottom: 0;
+        margin-top: 90px;
+    }
+    .footer-left {
+        float: left;
+    }
+    .footer-right {
+        float: right;
+    }
+    .pagetop {
+        display: none;
+        cursor: pointer;
+        position: fixed;
+        bottom: 90px;
+        right: 50px;
+        background-color: #ececec;
+        padding: 20px;
+    }
+ }
